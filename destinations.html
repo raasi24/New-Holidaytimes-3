@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="index.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+    type='text/css'>
+  <title>Destinations</title>
+
+<body>
+
+  <style>
+    .nav-link {
+      margin-left: 20px;
+      font-weight: bold;
+      font-size: 20px;
+      font-style: italic;
+    }
+
+    .info {
+
+      margin-top: 30px;
+      font-size: 30px;
+      color: #03225C;
+      margin-left: 15px;
+      margin-right: 10px;
+    }
+
+    .dropdown-item {
+      font-style: italic;
+    }
+
+    #maldives {
+      margin-top: 20px;
+    }
+  </style>
+
+  </head>
+
+  <body>
+    <div class="menu" style="line-height: 2.5;">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html"><img src="logo.jpg"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+          aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item " dropdown>
+              <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+            </li>
+            <!--li class="nav-item dropdown"-->
+            <a class="nav-link dropdown active" href="destinations.html" aria-expanded="false">Destinations</a>
+            </li>
+          </ul>
+          <form class="form-inline">
+            <button type="button" class="btn btn-outline-primary" onclick="location.href = 'contactus.html';">Contact
+              Us</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+
+
+    <div class="dropdown" style="margin-top: 20px; margin-left: 10px; font-family: Lucida Handwriting;">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">Choose your Destination
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#Mauritius" style="font-family: Lucida Handwriting;">Mauritius</a>
+        <a class="dropdown-item" href="#dubai" style="font-family: Lucida Handwriting;">Dubai</a>
+        <a class="dropdown-item" href="#maldives" style="font-family: Lucida Handwriting;">Maldives</a>
+      </div>
+    </div>
+
+    <div class="card" style="font-family: Lucida Handwriting; margin-top: 20px;" id="Mauritius">
+      <h5 class="card-header" id="Mauritius" style="margin:0 auto;"><b>Mauritius</b></h5>
+      <div class="card-body">
+        <img class="d-block w-100" src="Mauritius.jpg">
+        <h5 class="card-title" style="text-align:center">Explore Mauritius with us</h5>
+        <p class="card-text" style="text-align:center"> Let us help you to create some of the best holiday memories!
+        </p>
+        <a href="packages mauritus.html" class="btn btn-primary" style="margin-left: 44%;">Checkout packages</a>
+      </div>
+    </div>
+
+    <div class="card" style="font-family: Lucida Handwriting; margin-top: 20px;" id="Dubai">
+      <h5 class="card-header" id="dubai" style="margin:0 auto;"><b>Dubai</b></h5>
+      <div class="card-body">
+        <img class="d-block w-100" src="MicrosoftTeams-image.png">
+        <h5 class="card-title" style="text-align:center">Adventurous Dubai welcomes you</h5>
+        <p class="card-text" style="text-align:center"> Let us help you to create some of the best holiday memories!
+        </p>
+        <a href="packages dubai.html" class="btn btn-primary" style="margin-left: 44%;">Checkout packages</a>
+      </div>
+    </div>
+
+
+    <div class="card" style="font-family: Lucida Handwriting; margin-top: 20px;" id="maldives">
+      <h5 class="card-header" id="maldives" style="margin:0 auto;"><b>Maldives</b></h5>
+      <div class="card-body">
+        <img class="d-block w-100" src="Maldives3.jpg">
+        <h5 class="card-title" style="text-align:center"> Spend your holiday in luxoriuos Maldives </h5>
+        <p class="card-text" style="text-align:center"> Let us help you to create some of the best holiday memories!
+        </p>
+        <a href="packages maldives.html" class="btn btn-primary" style="margin-left: 44%;">Checkout packages</a>
+      </div>
+    </div>
+
+
+
+
+  </body>
+
+</html>
